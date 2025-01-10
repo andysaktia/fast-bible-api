@@ -1,14 +1,21 @@
-# Bible API
+# FastBibleAPI  
 
-A simple and efficient API to access Bible verses, chapters, and books. This project showcases how to structure a FastAPI project while implementing token-based authentication and a JSON data-driven backend.
+**FastBibleAPI** is a RESTful API built with **FastAPI**, providing fast and easy access to Bible data. This project supports searching for specific verses, chapters, or entire books of the Bible using filters based on book identifiers, chapters, and verses. It is ideal for religious applications, research projects, or educational platforms.
 
-## Features
+## Key Features  
+- **Verse Lookup**: Retrieve specific verses by book, chapter, and verse numbers.  
+- **Chapter Search**: Fetch all verses within a specific chapter.  
+- **Book Search**: Access all verses within a specific book of the Bible.  
+- **API Security**: Secure API access with token-based authentication.  
+- **JSON Data Support**: Bible data is sourced from a JSON file, making it easy to modify or extend.  
 
-- Retrieve Bible data by book, chapter, and verse.
-- Token-based authentication for secure API access.
-- Clear and well-structured JSON responses.
-- Pagination support for large data sets.
-- Easy-to-use endpoints for developers.
+## Technologies Used  
+- **FastAPI**: A modern, fast web framework for building APIs with Python.  
+- **Uvicorn**: A fast and lightweight ASGI server for running the application.  
+- **Pytest**: A robust testing framework to ensure API reliability.  
+
+## Project Goals  
+This project is designed as an open-source showcase to demonstrate the use of FastAPI for building modern Bible APIs. With a well-structured architecture and comprehensive usage guide, it is perfect for developers who want to learn or implement similar APIs.  
 
 ## Project Structure
 
